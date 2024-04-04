@@ -13,6 +13,7 @@ export default function App() {
           <Route element={<PrivateRoutes />}>
             {/* protected routing so that if the user isnt logged in, he cant access home, will be redirected to login page */}
             <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
           </Route>
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
