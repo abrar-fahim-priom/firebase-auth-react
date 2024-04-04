@@ -105,6 +105,13 @@ const Login = () => {
           Reset
         </NavLink>
       </p>
+
+      <p className="my-2 text-green-500">
+        Don't have an account?{" "}
+        <NavLink to="/register" className="underline">
+          Create an account
+        </NavLink>
+      </p>
     </div>
   );
 };
